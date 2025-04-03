@@ -1,0 +1,61 @@
+#shopping-list {
+    font-family: Arial, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c0bdc0;
+    border-radius: 5px;
+}
+#shopping-list h1 {
+    text-align: center;
+    color: #474046;
+}
+.counter {
+    color: #474046;
+    font-weight: bold;
+}
+.add_item_form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.add_item_form input[type="text"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.add_item_form label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #555;
+}
+.add_item_form button {
+    padding: 10px;
+    background-color: #77a397;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#shopping-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+#shopping-list li {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#shopping-list li:hover {
+    background-color: #d0d0d0;
+}
